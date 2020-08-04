@@ -2,12 +2,17 @@ import os,sys,time,re,requests,json
 from requests import post
 from time import sleep
 
-b = "\033[1;96m"
-w = "\033[1;37m"
-
+B = '\033[1;96m'
+W = '\033[1;37m'
+                def Tik(s):
+		for i in s + '\n':
+			sys.stdout.write(i)
+			sys.stdout.flush()
+			sleep(random.random() * 0.0010)
+	
 
 def Banner():
-        Tik(''+b+'''	
+        Tik(''+B+'''	
  _____                         _____               
 /  ___|                       /  ___|              
 \ `--. _ __   __ _ _ __ ___   \ `--. _ __ ___  ___ 
@@ -15,7 +20,7 @@ def Banner():
 /\__/ / |_) | (_| | | | | | | /\__/ / | | | | \__ \\
 \____/| .__/ \__,_|_| |_| |_| \____/|_| |_| |_|___/
       | |                                          
-      |_|  ''+w+"'Creator : CandraOi\n\t\tWhatsapp : +6285708302016')
+      |_|  '''+W+'Creator : CandraOi\n\t\tWhatsapp : +6285708302016')
 def marco():
     ua={
     "Host": "www.idmarco.com",
