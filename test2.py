@@ -2,12 +2,12 @@ import os,sys,time,re,requests,json
 from requests import post
 from time import sleep
 
-blu="\033[1;96m"
-whi="\033[1;37m"
+b = "\033[1;96m"
+w = "\033[1;37m"
 
 
 def Banner():
-        Tik(''${blu}'''	
+        Tik(''+b+'''	
  _____                         _____               
 /  ___|                       /  ___|              
 \ `--. _ __   __ _ _ __ ___   \ `--. _ __ ___  ___ 
@@ -15,7 +15,7 @@ def Banner():
 /\__/ / |_) | (_| | | | | | | /\__/ / | | | | \__ \\
 \____/| .__/ \__,_|_| |_| |_| \____/|_| |_| |_|___/
       | |                                          
-      |_|  ''${whi}"'Creator : CandraOi\n\t\tWhatsapp : +6285708302016')
+      |_|  ''+w+"'Creator : CandraOi\n\t\tWhatsapp : +6285708302016')
 def marco():
     ua={
     "Host": "www.idmarco.com",
