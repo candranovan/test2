@@ -4,13 +4,7 @@ from time import sleep
 
 B = '\033[1;96m'
 W = '\033[1;37m'
-                def Tik(s):
-		for i in s + '\n':
-			sys.stdout.write(i)
-			sys.stdout.flush()
-			sleep(random.random() * 0.0010)
-	
-
+                
 def Banner():
         Tik(''+B+'''	
  _____                         _____               
